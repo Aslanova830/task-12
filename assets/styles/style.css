@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+    
+
+@media (min-width: 320px) and (max-width: 480px) {
+       
+    .h-m{
+        height: 100vh;
+        text-align: center;
+        align-content: center;
+        background-color: black;
+       }
+
+       .l-h-55{
+        line-height: 55px;
+       }
+
+       .l-h-65{
+        line-height: 65px;
+       }
+
+    .f-d-column{
+        flex-direction: column;
+    }
+
+    .btn-m{
+        border-radius: 80px;
+        border: none;
+        padding: 12px 16px;
+        background-color: #202832;
+        min-width: 327px;
+        min-height: 48px;
+        font-size: 16px;
+        color: white;
+    }
+
+    .btn-m-2{
+        border-radius: 80px;
+        border: none;
+        padding: 12px 16px;
+        background:linear-gradient(#8AD4EC,#EF96FF,#FF56A9,#FFAA6C);
+        min-width: 327px;
+        min-height: 48px;
+        font-size: 16px;
+        color: white;
+    }
+
+    .hero{
+        height: 100vh;
+        background-color: black;
+        padding: 20px 30px;
+        }
+
+        .c-white{
+            color: white;
+        }
+
+        .d-flex{
+            display: flex;
+        }
+        .gap-50{
+            gap: 50px;
+        }
+
+        .l-height{
+            line-height: 24px;
+        }
+
+        .input{
+            border: 5px;
+            border-color: #1a1d15;
+            border-radius: 16px;
+            background-color: #20283200;
+            min-width: 255px;
+            min-height: 64px;
+        }
+
+        .c-gray{
+            color: #6A84A0;
+        }
+
+        .c-gray-18{
+          color: #384657;
+        }
+
+        .bg-c-black{
+            background-color: #1a1d15;
+        }
+
+        .margin-500{
+           margin-top: 450px ;
+        }
+}
